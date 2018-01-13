@@ -115,14 +115,14 @@ Github üzerinde sayfa açmak için birkaç çeşit yol var ancak ben size en ko
 
 `config.yml` içerisindeki `url` değerini `http://githubHesapAdınız.github.io` olarak değiştirin. (Çünkü assetler artık localhost üzerinden sunulmayacak) Daha sonra:
 
-~~~ruby
-	  cd site_klasoru
+~~~bash
+    cd site_klasoru
     git init
     git remote add origin https://github.com/githubHesapAdınız/githubHesapAdınız.github.io.git
     git add -A
     git commit -m "Initial deployment"
     git push origin master
-    // SSH key kullanmıyorsanız github kullanıcı adı ve şifrenizi isteyecek
+    # SSH key kullanmıyorsanız github kullanıcı adı ve şifrenizi isteyecek
 ~~~
 
 komutlarını girerek dosyaları remote reponuza pushlayın. Birkaç dakika içerisinde [http://githubHesapAdınız.github.io](http://githubHesapAdınız.github.io)  adresine giriş yapın ve siteniz sizi karşılıyor olacaktır.
